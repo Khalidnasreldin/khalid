@@ -30,11 +30,12 @@ header {
 header img {
     width: 70px;
 }
-header nav {
+header nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
 }
 header nav a{
     font-size: 16px;
