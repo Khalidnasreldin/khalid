@@ -1,7 +1,7 @@
 :root{
     --bg-color: #27374D;
     --primary-color: #73A7C7;
-    --secondary-color: #526D82;
+    --secondary-color: #36658a;
     --text: #DDE6ED;
     
 }
@@ -26,7 +26,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
 }
 header h1 {
     color: var(--primary-color);
@@ -102,7 +101,7 @@ main .home .text a:hover{
     background-color: var(--primary-color);
 }
 main .home img {
-    width: 400px;
+    width: 450px;
 }
 
 main .about {
@@ -188,6 +187,7 @@ main .certifications .box span{
 }
 
 main .skills {
+    min-height: 100vh;
     width: 90%;
     margin: 0 auto;
     padding: 50px 10px;
@@ -197,15 +197,16 @@ main .skills h3{
     color: var(--text);
     text-transform: uppercase;
     font-weight: 300;
-    padding: 5px;
+    padding: 10px 0;
     border-radius: 5px;
-    background-color: var(--primary-color);
+    background-color: #1f2a3a;
+    text-align: center;
 }
 main .skills details {
     color: var(--text);
 }
 main .skills details summary{
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 16px;
     text-transform: capitalize;
     border-bottom: 1px solid var(--primary-color);
@@ -232,6 +233,8 @@ main .skills details p{
 .contact {
     width: 90%;
     margin: 0 auto;
+    background-color: #1f2a3a;
+    border-radius: 20px 20px 0 0;
 }
 .contact div{
     display: flex;
@@ -251,7 +254,6 @@ main .skills details p{
 
 .menu-icon{
     display: none;
-
 }
 
 .active {
@@ -277,6 +279,7 @@ main .skills details p{
         padding: 10px 0;
     }
     .menu-icon{
+        width: 28px;
         display: block;
     }
     header h1{
@@ -288,6 +291,9 @@ main .skills details p{
     main .home .text{
         width: 90%;
     }
+    main .home img{
+        width: 300px;
+    }
     main .about .text{
         width: 90%;
     }
@@ -296,5 +302,8 @@ main .skills details p{
     }
     main .about .text p{
         width: 100%;
+    }
+    main .about img{
+        width: 300px;
     }
 }
