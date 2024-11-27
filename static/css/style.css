@@ -27,8 +27,9 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
 }
-header img {
-    width: 70px;
+header h1 {
+    color: var(--text);
+    text-transform: capitalize;
 }
 header nav ul{
     display: flex;
@@ -70,7 +71,7 @@ main .home .text{
     justify-content: center;
     gap: 15px;
 }
-main .home .text h1{
+main .home .text h2{
     font-size: 48px;
     text-transform: capitalize;
     color: var(--primary-color);
@@ -240,7 +241,7 @@ main .skills details ul li{
 }
 
 /* Media query */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     header{
         justify-content: center;
     }
