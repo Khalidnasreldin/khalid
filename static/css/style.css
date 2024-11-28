@@ -269,7 +269,6 @@ main .skills details p{
         scale: 1;
     }
 }
-/* give this class to sections */
 .scroll-animation {
     animation: scrollAnimation linear;
     animation-timeline: view();
