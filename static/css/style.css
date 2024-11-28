@@ -251,14 +251,29 @@ main .skills details p{
     padding: 10px;
     height: 48px;
 }
-
 .menu-icon{
     display: none;
 }
-
 .active {
     /* top: -10%; */
     display: block;
+}
+
+@keyframes scrollAnimation {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+/* give this class to sections */
+.scroll-animation {
+    animation: scrollAnimation linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
 }
 
 /* Media query */
